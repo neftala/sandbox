@@ -6,56 +6,112 @@
     </head>
 
     <body>
-        <h1>Here to make mistakes!</h1>
+        <header>
+            <h1>Here to make mistakes!</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#hyperlink-attempts">Hyperlink Attempts</a></li>
+                <li><a href="#list-attempts">List Attempts</a></li>
+                <li><a href="#photo-attempts">Photo Attempts</a></li>
+                <li><a href="#audio-attempts">Audio Attempts</a></li>
+            </ul>
+        </nav>
 
-        <h2>Attempts</h2>
+        <main>
+            <section id="hyperlink-attempts">
+                <h2>Hyperlink Attempts</h2>
 
-        <h3>HyperLink</h3>
+                <p>Here's a link to visit <a href="https://google.com">Google</a>.</p>
 
-        <p>Here's a link to visit <a href="https://google.com">Google</a>.</p>
+                <p>Here's a link to visit <a href="https://google.com" target="_blank">Google</a> in a new tab. </p>
 
-        <p>Here's a link to visit <a href="https://google.com" target="_blank">Google</a> in a new tab. </p>
+                <p>Here's a link to visit <a href="https://google.com" target="_top">Google</a> in the full body of the window.</p>
 
-        <p>Here's a link to visit <a href="https://google.com" target="_top">Google</a> in the full body of the window.</p>
+                <p><a href="mailto:not3@miami.edu">Email Nefele</a></p>
 
-        <p><a href="mailto:not3@miami.edu">Email Nefele</a></p>
+                <p><a href="tel:3052971994">Call Nefele</a></p>
+            </section>
+            
+            <section id="list-attempts">
+                <h2>List Attempts</h2>
 
-        <p><a href="tel:3052971994">Call Nefele</a></p>
+                <h3>Unordered List</h3>
 
-        <h3>Nested List</h3>
-
-        <ol>
-            <li>Breakfast
                 <ul>
-                    <li>Eggs</li>
-                    <li>Ham</li>
-                    <li>Toast</li>
+                    <li>loose leaf paper</li>
+                    <li>notebook</li>
+                    <li>pencil</li>
+                    <li>pen</li>
+                    <li>ruler</li>
+                    <li>colored pencils</li>
+                    <li>highlighters</li>
                 </ul>
-            </li>
-            <li>Lunch
-                <ul>
-                    <li>Tomato Soup</li>
-                    <li>Grilled Cheese</li>
-                </ul>
-            </li>
-            <li>Dinner
-                <ul>
-                    <li>Spaghetti Bolognese</li>
-                    <li>Greek Salad</li>
-                </ul>
-            </li>
-        </ol>
 
-        <h3>Ordered List</h3>
+                <h3>Nested List</h3>
+    
+                <ol>
+                    <li>Breakfast
+                        <ul>
+                            <li>Eggs</li>
+                            <li>Ham</li>
+                            <li>Toast</li>
+                        </ul>
+                    </li>
+                    <li>Lunch
+                        <ul>
+                            <li>Tomato Soup</li>
+                            <li>Grilled Cheese</li>
+                        </ul>
+                    </li>
+                    <li>Dinner
+                        <ul>
+                            <li>Spaghetti Bolognese</li>
+                            <li>Greek Salad</li>
+                        </ul>
+                    </li>
+                </ol>
+    
+                <h3>Ordered List</h3>
+    
+                <h>How to Make a Latte</p>
+                <ol>
+                    <li>Ground fresh coffee beans</li>
+                    <li>Pack Ground Coffee into portafilter using tamper</li>
+                    <li>Extract coffee into mug</li>
+                    <li>Pour expresso into glass with ice</li>
+                    <li>Pour milk as desired into glass</li>
+                </ol>
+            </section>
 
-        <p>How to Make a Latte</p>
-        <ol>
-            <li>Ground fresh coffee beans</li>
-            <li>Pack Ground Coffee into portafilter using tamper</li>
-            <li>Extract coffee into mug</li>
-            <li>Pour expresso into glass with ice</li>
-            <li>Pour milk as desired into glass</li>
-        </ol>
- 
+            <section id="photo-attempts">
+                <h2>Photo Attempts</h2>
+
+                <figure>
+                    <img src="images/pexels-cat.jpg" alt="orange cat under duvet" title="orange cat under duvet">
+                    <figcaption>Orange cat wrapped in duvet cover (Photo by: <a href="https://www.pexels.com/@natalie-bond-320378/">Natalie Bond</a> on <a href="https://www.pexels.com/">Pexels</a>).</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/pexels-coffee.jpg" alt="cup of coffee" title="cup of coffee surrounded by walnuts">
+                    <figcaption>Cup of Coffee surrounded by walnuts (Photo by: <a href="https://www.pexels.com/@betul-366530167/">Betul Batmaz</a> on <a href="https://www.pexels.com/">Pexels</a>). </figcaption>
+                </figure>
+            </section>
+
+            <section id="audio-attempts">
+                <h2>Audio Attempts</h2>
+
+                <audio controls>
+                    <source src="audio/arthur-vyncke-cherry-metal.mp3">
+                </audio>
+
+                <p>Cherry Metal by <a href="https://soundcloud.com/arthurvost">Arthur Vyncke</a></p>
+                <p>Music promoted by <a href="https://www.free-stock-music.com">free-stock-music</a></p>
+                <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons</a>
+                (<abbr title="Creative Commons / Attribution-ShareAlike 3.0 Unported">CC BY-SA 3.0</abbr>)</p>
+            </section>
+
+        </main>
     </body>
 </html>
