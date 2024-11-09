@@ -1,0 +1,55 @@
+/* style sheet for sandbox.html */
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&display=swap');
+
+body{
+  font-weight: 300;
+  font-family: 'Moderustic', 'Helvetica Neue', 'Arial', sans-serif ;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #14243e;
+  background-image: url(../images/leaves-multicoloured-print-25-in-architextures.jpg);
+  /* background-blend-mode: lighten; */
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  font-family: 'Asap Condensed', 'Helvetica Neue', 'Arial', sans-serif ;
+
+}
+
+header,
+nav,
+main {
+  background-color: rgba(214, 214, 214, 0.4);
+}
+
+#box {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas: 
+    "masthead    masthead    masthead"
+    "navigation  welcome      welcome";
+}
+
+
+header {
+  grid-area: masthead;
+}
+  
+nav {
+  grid-area: navigation;
+}
+
+main {
+    grid-area: welcome;
+}
