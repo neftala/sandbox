@@ -57,7 +57,7 @@ section {
 }
 
 nav {
-  height: 180px;
+  height: 200px;
   position: sticky;
   top: 0;
   background-color: rgba(214, 214, 214, 0.7);
@@ -116,6 +116,7 @@ main {
   grid-template-areas:
     "hyperlinks"
     "grids"
+    "videos"
     "lists"
     "photos"
     "audios";
@@ -141,6 +142,10 @@ main {
   grid-area: grids;
 }
 
+#video-attempts {
+  grid-area: videos;
+}
+
 .gallery {
   grid-area: grids;
   display: grid;
@@ -152,5 +157,9 @@ figure {
   margin: 0;
   margin-left: 20px;
   margin-bottom: 10px;
+}
+
+iframe {
+  margin-left: 20px;
 }
 
